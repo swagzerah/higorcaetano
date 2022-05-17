@@ -8,34 +8,40 @@
 }
 
 body {
-    background-color: darkgoldenrod;
+    background-color: gray;
+}
+
+input {
+    border-radius: 10px;
 }
 
 #title {
-    background-color: darkgoldenrod;
-    display: block;
+    background-color: gray;
     text-align: center;
     font-size: 3em;
 }
 
 #calculator {
-    background-color: darkgoldenrod;
-    max-width: 100%;
-    min-width: 320px;
+    background-color: gainsboro;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-content: space-between;
+    max-width: 600px;
+    min-width: 320px;
+    border-radius: 20px;
+    padding: 20px 0px;
+    margin: auto;
 }
 
 #calculate {
-    height: 3em;
+    height: 2.2em;
     width: 4em;
 }
 
 #home {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
 }
