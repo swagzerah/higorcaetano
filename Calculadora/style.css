@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Koulen', cursive;
+    font-size: 1em;
+}
+
+body {
+    background-color: darkblue;
+}
+
+#title {
+    background-color: darkgoldenrod;
+    display: block;
+    text-align: center;
+    font-size: 3em;
+}
+
+#calculator {
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+#calculate {
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid red;
+}
+
+
+
