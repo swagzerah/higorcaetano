@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: darkblue;
+    background-color: darkgoldenrod;
 }
 
 #title {
@@ -23,13 +23,21 @@ body {
     max-width: 100%;
     min-width: 320px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-content: space-between;
     border: 1px solid red;
 }
 
 #calculate {
+    height: 3em;
+    width: 4em;
+}
+
+#home {
     display: flex;
-    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
     border: 1px solid red;
 }
 
