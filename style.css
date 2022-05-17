@@ -26,7 +26,6 @@ body {
     flex-direction: column;
     text-align: center;
     align-content: space-between;
-    border: 1px solid red;
 }
 
 #calculate {
@@ -39,7 +38,6 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    border: 1px solid red;
 }
 
 
