@@ -20,6 +20,7 @@ body {
 
 #calculator {
     background-color: darkgoldenrod;
+    width: 800px;
     display: flex;
     justify-content: center;
     border: 1px solid red;
