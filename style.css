@@ -13,8 +13,6 @@ body {
 
 input {
     border-radius: 9px;
-    border: none;
-    outline: none;
 }
 
 #name {
