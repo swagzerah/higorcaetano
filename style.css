@@ -13,11 +13,21 @@ body {
 
 input {
     border-radius: 9px;
+    border: none;
+    outline: none;
+}
+
+a {
+    font-size: 1.2em;
+    padding: 0px 5px;
+}
+
+#header {
+    background-color: gainsboro;
+    text-align: center;
 }
 
 #name {
-    background-color: gainsboro;
-    text-align: center;
     font-size: 3em;
 }
 
