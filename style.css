@@ -12,11 +12,19 @@ body {
 }
 
 input {
-    border-radius: 10px;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+}
+
+#name {
+    background-color: gainsboro;
+    text-align: center;
+    font-size: 3em;
 }
 
 #title {
-    background-color: gray;
+    background-color: gainsboro;
     text-align: center;
     font-size: 3em;
 }
@@ -27,23 +35,17 @@ input {
     flex-direction: column;
     text-align: center;
     align-content: space-between;
-    max-width: 600px;
+    max-width: 400px;
     min-width: 320px;
     border-radius: 20px;
     padding: 20px 0px;
     margin: auto;
+    margin-top: 1em;
 }
 
 #calculate {
     height: 2.2em;
     width: 4em;
-}
-
-#home {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 
