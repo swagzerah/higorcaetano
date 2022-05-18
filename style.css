@@ -20,6 +20,12 @@ input {
 a {
     font-size: 1.2em;
     padding: 0px 5px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: gray;
 }
 
 button {
